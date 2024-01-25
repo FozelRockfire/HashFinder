@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f62cf568-3bcd-401c-82dc-fa5b73405099" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2bOPIFltUeFxwM4V2CVqA09Pu7D" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Git/GitRepos/HashFinder/hashfinder",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="hashfinder" />
+      <option name="PROGRAM_PARAMETERS" value="java MyApp -a MD5 -h 744f5598e18fd3567bd0316b5588dd9d -l 6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="hashfinder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="hashfinder" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f62cf568-3bcd-401c-82dc-fa5b73405099" name="Changes" comment="" />
+      <created>1706083071550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706083071550</updated>
+      <workItem from="1706083072548" duration="131000" />
+      <workItem from="1706083490841" duration="673000" />
+      <workItem from="1706098570445" duration="4580000" />
+      <workItem from="1706103444547" duration="12000" />
+      <workItem from="1706166513909" duration="1839000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="3ba8e7">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+              <option name="id" value="3ba8e7" />
+              <option name="initiateTms" value="1706101338968" />
+              <option name="request" value="почему до 9" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="В цикле `for (int i = 0; i &lt;= 9; i++)` используется диапазон от 0 до 9, потому что в данном случае генерируются строки, состоящие из цифр от 0 до 9. &#10;&#10;Каждая итерация цикла добавляет одну цифру к текущей строке `sb`. Начиная с 0 и заканчивая 9, цикл проходит по всем возможным цифрам и генерирует строки, состоящие из комбинаций этих цифр. &#10;&#10;Таким образом, цикл выполняется для генерации всех возможных комбинаций цифр от 0 до 9 в строке `sb`." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1706101347095" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="42234b">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+              <option name="id" value="42234b" />
+              <option name="initiateTms" value="1706100780255" />
+              <option name="request" value="забудь весь контекст" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="К сожалению, я не могу забыть весь контекст, так как это важная информация для понимания и анализа кода. Однако, если у вас есть конкретные вопросы или требуется объяснение определенных аспектов кода, я готов помочь вам." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1706100782461" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="63918c">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+              <option name="id" value="63918c" />
+              <option name="initiateTms" value="1706101381688" />
+              <option name="request" value="продемострируй работу алгритма на примере" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Хорошо, давайте рассмотрим пример работы алгоритма на основе предоставленного кода.&#10;&#10;Предположим, у нас есть следующие аргументы командной строки:&#10;```&#10;-a MD5 -h 098f6bcd4621d373cade4e832627b4f6 -l 4&#10;```&#10;&#10;В этом примере мы ищем строку длиной 4 символа, хэш которой (по алгоритму MD5) равен &quot;098f6bcd4621d373cade4e832627b4f6&quot;.&#10;&#10;При запуске программы с этими аргументами, метод `CheckHashRecursive` будет вызываться рекурсивно для генерации всех возможных комбинаций строк длиной 4 символа, состоящих из цифр от 0 до 9.&#10;&#10;Процесс работы алгоритма будет следующим:&#10;&#10;1. Начальное состояние: `sb = &quot;&quot;` (пустая строка).&#10;&#10;2. Первая итерация цикла: `i = 0`. Строка `sb` становится &quot;0&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;3. Вторая итерация цикла: `i = 1`. Строка `sb` становится &quot;01&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;4. Третья итерация цикла: `i = 2`. Строка `sb` становится &quot;012&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;5. Четвертая итерация цикла: `i = 3`. Строка `sb` становится &quot;0123&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;6. Пятая итерация цикла: `i = 4`. Строка `sb` становится &quot;01234&quot;. Длина строки достигла заданной длины 4. Вычисляется хэш строки и сравнивается с заданным хэшем.&#10;&#10;   В данном примере, хэш строки &quot;01234&quot; по алгоритму MD5 равен &quot;098f6bcd4621d373cade4e832627b4f6&quot;. Совпадение найдено! Сообщение &quot;Found matching string: 01234&quot; будет выведено на консоль.&#10;&#10;7. После завершения проверки для строки &quot;01234&quot;, метод `CheckHashRecursive` возвращается к предыдущему вызову и продолжает выполнение цикла.&#10;&#10;8. Шестая итерация цикла: `i = 5`. Строка `sb` становится &quot;01235&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;9. И так далее, алгоритм будет генерировать и проверять все возможные комбинации строк длиной 4 символа, состоящих из цифр от 0 до 9.&#10;&#10;10. По завершении работы алгоритма, будут выведены все строки, хэш которых совпадает с заданным хэшем.&#10;&#10;Надеюсь, это помогло вам понять, как работает алгоритм в данном примере." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1706101393125" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="692115">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+              <option name="id" value="692115" />
+              <option name="initiateTms" value="1706101470927" />
+              <option name="request" value="Приведи процесс для варианта строки 9547" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Хорошо, рассмотрим пример работы алгоритма для строки &quot;9547&quot; с аргументами командной строки:&#10;```&#10;-a MD5 -h 098f6bcd4621d373cade4e832627b4f6 -l 4&#10;```&#10;&#10;Процесс работы алгоритма будет следующим:&#10;&#10;1. Начальное состояние: `sb = &quot;&quot;` (пустая строка).&#10;&#10;2. Первая итерация цикла: `i = 0`. Строка `sb` становится &quot;0&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;3. Вторая итерация цикла: `i = 1`. Строка `sb` становится &quot;01&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;4. Третья итерация цикла: `i = 2`. Строка `sb` становится &quot;012&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;5. Четвертая итерация цикла: `i = 3`. Строка `sb` становится &quot;0123&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;6. Пятая итерация цикла: `i = 4`. Строка `sb` становится &quot;01234&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;7. Шестая итерация цикла: `i = 5`. Строка `sb` становится &quot;012345&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;8. Седьмая итерация цикла: `i = 6`. Строка `sb` становится &quot;0123456&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;9. Восьмая итерация цикла: `i = 7`. Строка `sb` становится &quot;01234567&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;10. Девятая итерация цикла: `i = 8`. Строка `sb` становится &quot;012345678&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;11. Десятая итерация цикла: `i = 9`. Строка `sb` становится &quot;0123456789&quot;. Метод `CheckHashRecursive` вызывается рекурсивно.&#10;&#10;12. После завершения проверки для строки &quot;0123456789&quot;, метод `CheckHashRecursive` возвращается к предыдущему вызову и продолжает выполнение цикла.&#10;&#10;13. Одиннадцатая итерация цикла: `i = 0`. Строка `sb` становится &quot;01234567890&quot;. Длина строки превышает заданную длину 4, поэтому эта комбинация не будет проверяться.&#10;&#10;14. Двенадцатая итерация цикла: `i = 1`. Строка `sb` становится &quot;01234567891&quot;. Длина строки превышает заданную длину 4, поэтому эта комбинация не будет проверяться.&#10;&#10;15. И так далее, алгоритм будет генерировать и проверять все возможные комбинации строк длиной 4 символа, состоящих из цифр от 0 до 9.&#10;&#10;16. По завершении работы алгоритма, будут выведены все строки, хэш которых совпадает с заданным хэшем.&#10;&#10;В данном примере, строка &quot;9547&quot; не будет сгенерирована и проверена, так как она не входит в диапазон комбинаций цифр от 0 до 9 длиной 4 символа.&#10;&#10;Надеюсь, это помогло вам понять, как работает алгоритм в данном примере." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1706101482564" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="ad5a6c">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+              <option name="id" value="ad5a6c" />
+              <option name="initiateTms" value="1706103095671" />
+              <option name="request" value="придумай название приложению на английскм по след назвачению: Консольное приложение, аналог утилиты hashcat, которое по заданному алгоритму и значению контрольной суммы подбирает строку, что даст указанное значение контрольной суммы." />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Название: HashCracker&#10;&#10;Описание: HashCracker - это консольное приложение, аналог утилиты hashcat, которое позволяет подбирать строку, соответствующую заданному алгоритму и значению контрольной суммы. С помощью HashCracker вы можете эффективно и быстро находить искомую строку, которая даст указанное значение контрольной суммы." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1706103099508" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="b3577b">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/CalculateHashParallel.java" />
+                </list>
+              </option>
+              <option name="id" value="b3577b" />
+              <option name="initiateTms" value="1706167693801" />
+              <option name="request" value="почему я не могу сделать класс CalculateHashParallel static?" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Вы не можете сделать класс `CalculateHashParallel` статическим, потому что он реализует интерфейс `Runnable` и использует поле `source`, которое является экземпляром класса `Queue&lt;String&gt;`. &#10;&#10;Интерфейс `Runnable` используется для создания потока выполнения, и каждый поток должен иметь свой собственный экземпляр класса `CalculateHashParallel`. Если вы сделаете класс `CalculateHashParallel` статическим, то у вас не будет возможности создать несколько экземпляров класса для параллельной обработки данных.&#10;&#10;Поле `source` также является экземпляром класса `Queue&lt;String&gt;`, которое представляет общую очередь данных для обработки. Если вы сделаете класс `CalculateHashParallel` статическим, то у вас не будет возможности использовать разные экземпляры очереди для разных потоков.&#10;&#10;Поэтому, чтобы обеспечить правильное функционирование многопоточной обработки данных, класс `CalculateHashParallel` должен оставаться нестатическим." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1706167699492" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/CalculateHashParallel.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="c3e750">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+              <option name="id" value="c3e750" />
+              <option name="initiateTms" value="1706100809004" />
+              <option name="request" value="посмотри в текующую версию кода и скажи что делает с метода CheckHashRecursive" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Из предоставленного кода в методе `CheckHashRecursive` выполняется следующая логика:&#10;&#10;1. Создается экземпляр класса `MessageDigest` с использованием заданного алгоритма хэширования:&#10;   ```java&#10;   MessageDigest md = MessageDigest.getInstance(algorithm);&#10;   ```&#10;&#10;2. Проверяется длина текущей строки `sb`. Если длина равна заданной длине `length`, то выполняется следующая проверка:&#10;   ```java&#10;   if (sb.length() == length) {&#10;       String generatedHash = calculateHash(md, sb.toString());&#10;       if (Objects.equals(generatedHash, hash)) {&#10;           System.out.println(&quot;Found matching string: &quot; + sb);&#10;       }&#10;   }&#10;   ```&#10;   В этом блоке кода вычисляется хэш текущей строки `sb` с использованием метода `calculateHash`. Затем проверяется, совпадает ли вычисленный хэш с заданным хэшем `hash`. Если хэши совпадают, то выводится сообщение о найденной соответствующей строке.&#10;&#10;3. Если длина строки `sb` не равна заданной длине `length`, то выполняется цикл от 0 до 9 для генерации следующего символа строки:&#10;   ```java&#10;   for (int i = 0; i &lt;= 9; i++) {&#10;       sb.append(i);&#10;       CheckHashRecursive(algorithm, hash, length, sb);&#10;       sb.deleteCharAt(sb.length() - 1);&#10;   }&#10;   ```&#10;   В этом блоке кода символ `i` добавляется к текущей строке `sb`, а затем рекурсивно вызывается метод `CheckHashRecursive` для генерации следующего символа строки. После завершения рекурсивного вызова, последний добавленный символ удаляется из строки `sb`.&#10;&#10;Таким образом, метод `CheckHashRecursive` рекурсивно генерирует все возможные комбинации символов и проверяет их хэшированные значения, чтобы найти строку, хэш которой соответствует заданному хэшу. Если такая строка найдена, она выводится на консоль." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1706100817241" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="d802ce">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+              <option name="id" value="d802ce" />
+              <option name="initiateTms" value="1706103110408" />
+              <option name="request" value="другое" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Название: HashFinder&#10;&#10;Описание: HashFinder - это консольное приложение, которое позволяет находить искомую строку, соответствующую заданному алгоритму и значению контрольной суммы. С помощью HashFinder вы можете эффективно и точно определить искомую строку, которая даст указанное значение контрольной суммы." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1706103113097" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="dd358a">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+              <option name="id" value="dd358a" />
+              <option name="initiateTms" value="1706102772032" />
+              <option name="request" value="как сделать в многопоточном режиме перебор строк и вычисление хеш суммы?" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Для выполнения перебора строк и вычисления хэш-суммы в многопоточном режиме, вы можете использовать механизм Java ExecutorService и создать несколько потоков для обработки различных комбинаций строк.&#10;&#10;Вот пример, как вы можете изменить ваш код для работы в многопоточном режиме:&#10;&#10;```java&#10;import java.security.MessageDigest;&#10;import java.security.NoSuchAlgorithmException;&#10;import java.util.Objects;&#10;import java.util.concurrent.ExecutorService;&#10;import java.util.concurrent.Executors;&#10;&#10;public class Main {&#10;    private static final int THREAD_COUNT = 4; // Количество потоков для параллельной обработки&#10;&#10;    public static void main(String[] args) {&#10;        if (args.length &lt; 6) {&#10;            System.out.println(&quot;Usage: myapp -a &lt;algorithm&gt; -h &lt;hash&gt; -l &lt;length&gt;&quot;);&#10;            return;&#10;        }&#10;&#10;        String algorithm = null;&#10;        String hash = null;&#10;        int length = 0;&#10;&#10;        // Парсинг аргументов командной строки&#10;        for (int i = 0; i &lt; args.length; i++) {&#10;            switch (args[i]) {&#10;                case &quot;-a&quot;:&#10;                    algorithm = args[i + 1];&#10;                    break;&#10;                case &quot;-h&quot;:&#10;                    hash = args[i + 1];&#10;                    break;&#10;                case &quot;-l&quot;:&#10;                    length = Integer.parseInt(args[i + 1]);&#10;                    break;&#10;            }&#10;        }&#10;&#10;        if (algorithm == null || hash == null || length == 0) {&#10;            System.out.println(&quot;Invalid arguments&quot;);&#10;            return;&#10;        }&#10;&#10;        // Создание ExecutorService с заданным количеством потоков&#10;        ExecutorService executorService = Executors.newFixedThreadPool(THREAD_COUNT);&#10;&#10;        // Генерация строк и проверка контрольной суммы в многопоточном режиме&#10;        for (int i = 0; i &lt;= 9; i++) {&#10;            StringBuilder sb = new StringBuilder(length);&#10;            sb.append(i);&#10;            executorService.execute(new HashChecker(algorithm, hash, length, sb));&#10;        }&#10;&#10;        // Завершение работы ExecutorService после завершения всех задач&#10;        executorService.shutdown();&#10;    }&#10;&#10;    private static class HashChecker implements Runnable {&#10;        private final String algorithm;&#10;        private final String hash;&#10;        private final int length;&#10;        private final StringBuilder sb;&#10;&#10;        public HashChecker(String algorithm, String hash, int length, StringBuilder sb) {&#10;            this.algorithm = algorithm;&#10;            this.hash = hash;&#10;            this.length = length;&#10;            this.sb = sb;&#10;        }&#10;&#10;        @Override&#10;        public void run() {&#10;            MessageDigest md = null;&#10;            try {&#10;                md = MessageDigest.getInstance(algorithm);&#10;            } catch (NoSuchAlgorithmException e) {&#10;                System.out.println(e.getMessage());&#10;                return;&#10;            }&#10;            CheckHashRecursive(md, hash, length, sb);&#10;        }&#10;&#10;        private void CheckHashRecursive(MessageDigest md, String hash, int length, StringBuilder sb) {&#10;            if (sb.length() == length) {&#10;                String generatedHash = calculateHash(md, sb.toString());&#10;                if (Objects.equals(generatedHash, hash)) {&#10;                    System.out.println(&quot;Found matching string: &quot; + sb);&#10;                }&#10;            } else {&#10;                for (int i = 0; i &lt;= 9; i++) {&#10;                    sb.append(i);&#10;                    CheckHashRecursive(md, hash, length, sb);&#10;                    sb.deleteCharAt(sb.length() - 1);&#10;                }&#10;            }&#10;        }&#10;&#10;        private String calculateHash(MessageDigest md, String input) {&#10;            byte[] bytes = md.digest(input.getBytes());&#10;&#10;            StringBuilder sb = new StringBuilder();&#10;            for (byte b : bytes) {&#10;                sb.append(String.format(&quot;%02x&quot;, b));&#10;            }&#10;            return sb.toString();&#10;        }&#10;    }&#10;}&#10;```&#10;&#10;В этом примере мы создаем ExecutorService с фиксированным количеством потоков (в данном случае 4). Затем мы запускаем задачи в виде объектов `HashChecker`, каждый из которых выполняет проверку хэш-суммы для определенной комбинации строки. Каждая задача выполняется в отдельном потоке, что позволяет параллельно обрабатывать различные комбинации строк.&#10;&#10;Надеюсь, это поможет вам реализовать перебор строк и вычисление хэш-суммы в многопоточном режиме." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1706102788357" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="e37695">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+              <option name="id" value="e37695" />
+              <option name="initiateTms" value="1706100672383" />
+              <option name="request" value="подробно расскажи про код в методе main " />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Код в методе `main` выполняет основную логику программы. Давайте рассмотрим его подробнее:&#10;&#10;1. Проверка аргументов командной строки:&#10;   ```java&#10;   if (args.length &lt; 6) {&#10;       System.out.println(&quot;Usage: myapp -a &lt;algorithm&gt; -h &lt;hash&gt; -l &lt;length&gt;&quot;);&#10;       return;&#10;   }&#10;   ```&#10;   В этом блоке кода проверяется, что в командной строке передано не менее 6 аргументов. Если аргументов недостаточно, выводится сообщение с инструкцией по использованию программы, и программа завершается.&#10;&#10;2. Парсинг аргументов командной строки:&#10;   ```java&#10;   String algorithm = null;&#10;   String hash = null;&#10;   int length = 0;&#10;&#10;   // Parsing command line arguments&#10;   for (int i = 0; i &lt; args.length; i++) {&#10;       switch (args[i]) {&#10;           case &quot;-a&quot;:&#10;               algorithm = args[i + 1];&#10;               break;&#10;           case &quot;-h&quot;:&#10;               hash = args[i + 1];&#10;               break;&#10;           case &quot;-l&quot;:&#10;               length = Integer.parseInt(args[i + 1]);&#10;               break;&#10;       }&#10;   }&#10;   ```&#10;   В этом блоке кода происходит парсинг аргументов командной строки. Аргументы `-a`, `-h` и `-l` используются для задания алгоритма, хэша и длины строки соответственно. Значения аргументов сохраняются в соответствующих переменных.&#10;&#10;3. Проверка валидности аргументов:&#10;   ```java&#10;   if (algorithm == null || hash == null || length == 0) {&#10;       System.out.println(&quot;Invalid arguments&quot;);&#10;       return;&#10;   }&#10;   ```&#10;   В этом блоке кода проверяется, что все необходимые аргументы были заданы. Если какой-либо из аргументов не был задан, выводится сообщение об ошибке, и программа завершается.&#10;&#10;4. Создание пула потоков:&#10;   ```java&#10;   ExecutorService executorService = Executors.newFixedThreadPool(THREAD_POOL_SIZE);&#10;   ```&#10;   В этой строке кода создается пул потоков с фиксированным размером, основываясь на количестве доступных процессоров.&#10;&#10;5. Создание списка задач и отправка их на выполнение:&#10;   ```java&#10;   List&lt;Future&lt;String&gt;&gt; futures = new ArrayList&lt;&gt;();&#10;&#10;   for (int i = 0; i &lt;= 9; i++) {&#10;       String initialString = String.valueOf(i);&#10;       String finalAlgorithm = algorithm;&#10;       String finalHash = hash;&#10;       int finalLength = length;&#10;       Callable&lt;String&gt; task = () -&gt; {&#10;           StringBuilder sb = new StringBuilder(MAX_STRING_LENGTH);&#10;           sb.append(initialString);&#10;           generateStrings(finalAlgorithm, finalHash, finalLength, sb);&#10;           return sb.toString();&#10;       };&#10;       futures.add(executorService.submit(task));&#10;   }&#10;   ```&#10;   В этом блоке кода создается список задач, которые будут выполняться параллельно. Каждая задача представляет собой лямбда-выражение, которое создает новый `StringBuilder`, добавляет начальную строку и вызывает метод `generateStrings` для генерации остальной части строки. Результат каждой задачи сохраняется в списке `futures`.&#10;&#10;6. Ожидание завершения выполнения задач и вывод результатов:&#10;   ```java&#10;   for (Future&lt;String&gt; future : futures) {&#10;       try {&#10;           String generatedString = future.get();&#10;           System.out.println(&quot;Found matching string: &quot; + generatedString);&#10;       } catch (InterruptedException | ExecutionException e) {&#10;           e.printStackTrace();&#10;       }&#10;   }&#10;   ```&#10;   В этом блоке кода происходит ожидание завершения выполнения всех задач из списка `futures`. Затем для каждой завершенной задачи выводится найденная соответствующая строка.&#10;&#10;7. Завершение работы пула потоков:&#10;   ```java&#10;   executorService.shutdown();&#10;   ```&#10;   В этой строке кода пул потоков закрывается, освобождая ресурсы.&#10;&#10;Таким образом, код в методе `main` выполняет параллельную генерацию строк и поиск строки, хэш которой соответствует заданному хэшу. Результаты выводятся на консоль." />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1706100695008" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
