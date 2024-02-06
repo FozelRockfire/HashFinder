@@ -16,6 +16,7 @@ public class CalculateHash {
     private final String algorithm;
     private final String hash;
     private final Integer length;
+    private final Integer numberOfThreads;
     private final List<String> genStrings = new ArrayList<>();
 
     public void calculateHashParallel() {
@@ -24,21 +25,21 @@ public class CalculateHash {
 
         List<String> results = new ArrayList<>();
 
-        try (ExecutorService executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors())) {
+        try (ExecutorService executor = Executors.newFixedThreadPool(numberOfThreads)) {
             var futures = genStrings.stream()
                     .map(genString -> executor.submit(() -> checkHash(genString)))
                     .toList();
             for (var fut : futures) {
                 String checkHashResult = fut.get();
-                if (checkHashResult != null) {
+                if (checkHashResult != null){
                     results.add(fut.get());
                 }
             }
         } catch (ExecutionException | InterruptedException e) {
             throw new RuntimeException(e);
         }
-        if (!results.isEmpty()) {
-            for (String result : results) {
+        if (!results.isEmpty()){
+            for (String result:results){
                 System.out.println("Found matching string: " + result);
             }
         } else {

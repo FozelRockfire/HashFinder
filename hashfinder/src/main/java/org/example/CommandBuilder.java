@@ -6,8 +6,9 @@ import lombok.AllArgsConstructor;
 public class CommandBuilder {
 
     String[] args;
+    Integer numberOfThreads;
 
-    public void buildCommand() {
+    public void buildCommand(){
         if (args.length < 6) {
             System.out.println("Usage: myapp -a <algorithm> -h <hash> -l <length>");
             return;
@@ -36,7 +37,7 @@ public class CommandBuilder {
             return;
         }
 
-        CalculateHash calculateHash = new CalculateHash(algorithm, hash, length);
+        CalculateHash calculateHash = new CalculateHash(algorithm, hash, length, numberOfThreads);
         calculateHash.calculateHashParallel();
     }
 
