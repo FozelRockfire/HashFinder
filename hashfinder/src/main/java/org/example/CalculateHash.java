@@ -16,36 +16,48 @@ public class CalculateHash {
     private final String algorithm;
     private final String hash;
     private final Integer length;
-    private final List<String> genStringList = new ArrayList<>();
+    private final List<String> genStrings = new ArrayList<>();
 
     public void calculateHashParallel() {
         StringBuilder stringBuilder = new StringBuilder();
-        generateAllStrings(stringBuilder, length, genStringList);
+        generateAllStrings(stringBuilder, length, genStrings);
+
+        List<String> results = new ArrayList<>();
 
         try (ExecutorService executor = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors())) {
-            var futures = genStringList.stream()
-                    .map(it -> executor.submit(() -> checkHash(it)))
+            var futures = genStrings.stream()
+                    .map(genString -> executor.submit(() -> checkHash(genString)))
                     .toList();
-
             for (var fut : futures) {
-                fut.get();
+                String checkHashResult = fut.get();
+                if (checkHashResult != null) {
+                    results.add(fut.get());
+                }
             }
         } catch (ExecutionException | InterruptedException e) {
             throw new RuntimeException(e);
         }
+        if (!results.isEmpty()) {
+            for (String result : results) {
+                System.out.println("Found matching string: " + result);
+            }
+        } else {
+            System.out.println("No matching string found, try to use another -l argument value");
+        }
     }
 
-    public void checkHash(String genString) {
+    public String checkHash(String genString) {
         try {
             MessageDigest md = MessageDigest.getInstance(algorithm);
             String generatedHash = calculateHash(md, genString);
 
             if (Objects.equals(generatedHash, hash)) {
-                System.out.println("Found matching string: " + genString);
+                return genString;
             }
         } catch (NoSuchAlgorithmException e) {
             System.out.println(e.getMessage());
         }
+        return null;
     }
 
     private String calculateHash(MessageDigest md, String input) {

@@ -7,7 +7,7 @@ public class CommandBuilder {
 
     String[] args;
 
-    public void buildCommand(){
+    public void buildCommand() {
         if (args.length < 6) {
             System.out.println("Usage: myapp -a <algorithm> -h <hash> -l <length>");
             return;
